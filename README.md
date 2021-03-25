@@ -24,7 +24,10 @@ For evaluation, the dataset is divided into train set (70%) and validation set (
 The loss used for evaluation is Cross-entropy. 
 
 # Dataset
+The dataset contains 4038 photos of electronic components in 6 different categories: Capacitor, Diode, Resistor, Transformer, Inductor, and IC.
+Two resources were used to create the dataset. The [Digi-Key] website, which is the biggest seller of electronic components in the world, was crawled in order to extract photos of the mentioned categories. Also, a public dataset of electronic components hosted in [Kaggle] was used.
 
 [CameraX]: <https://developer.android.com/training/camerax>
 [Jetpack]: <https://developer.android.com/jetpack>
+[Kaggle]: <https://www.kaggle.com/aryaminus/electronic-components>
 [Digi-Key]: <https://www.digikey.com/>
