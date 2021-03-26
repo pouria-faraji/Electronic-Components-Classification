@@ -117,7 +117,7 @@ class ImageClassifier(private val context: Context) {
 
         // Loads bitmap into a TensorImage.
         inputImageBuffer!!.load(bitmap)
-        // TODO(b/143564309): Fuse ops inside ImageProcessor.
+
         // TODO: Define an ImageProcessor from TFLite Support Library to do preprocessing
         val imageProcessor: ImageProcessor = ImageProcessor.Builder()
                 .add(ResizeOp(inputImageWidth, inputImageHeight, ResizeMethod.NEAREST_NEIGHBOR))
