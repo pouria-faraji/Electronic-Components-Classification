@@ -18,8 +18,8 @@ The model whihc is used for image classification is MobileNet version 2. The mod
 For evaluation, the dataset is divided into train set (70%) and validation set (30%). The following table is the results after training the model.
 | Metric |Train Set | Validation Set |
 |--------|--------- | ---------------|
-|  Loss  | 0.4465   |  0.4956        |
-|Accuracy| 83.91%   |  83.24%        |
+|  Loss  | 0.5579   |  0.6060        |
+|Accuracy| 81.49%   |  78.58%        |
 
 The loss used for evaluation is Cross-entropy. 
 
