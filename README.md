@@ -27,6 +27,9 @@ The loss used for evaluation is Cross-entropy.
 The dataset contains 4038 photos of electronic components in 6 different categories: Capacitor, Diode, Resistor, Transformer, Inductor, and IC.
 Two resources were used to create the dataset. The [Digi-Key] website, which is the biggest seller of electronic components in the world, was crawled in order to extract photos of the mentioned categories. Also, a public dataset of electronic components hosted in [Kaggle] was used.
 
+# Screenshots
+<img src="./screenshot1.jpg" alt="alt text" width="250" height="450"> | <img src="./screenshot2.jpg" alt="alt text" width="250" height="450"> | <img src="./screenshot3.jpg" alt="alt text" width="250" height="450">
+
 [CameraX]: <https://developer.android.com/training/camerax>
 [Jetpack]: <https://developer.android.com/jetpack>
 [Kaggle]: <https://www.kaggle.com/aryaminus/electronic-components>
