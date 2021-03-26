@@ -1,7 +1,7 @@
 # Molo17
 This is a private repository for an Electronic Components Detector application.
 
-It's an Android applciation developed in Kotlin in collaboration with Tensroflow Lite. The application tries to detect electronic components in real-time. The 6 components are Capacitor, Diode, Resistor, Inductor, Transformer, and IC. The applciation also shows the confidence of the detection, in other words, the probability of the detected component.
+It's an Android application developed in Kotlin in collaboration with Tensroflow Lite. The application tries to detect electronic components in real-time. The 6 components are Capacitor, Diode, Resistor, Inductor, Transformer, and IC. The applciation also shows the confidence of the detection, in other words, the probability of the detected components.
 
 The main directory contains four parts. Android related codes, Python related codes, the dataset, and the generated APK file.
 
@@ -13,7 +13,7 @@ Python codes contain two parts:
 - Codes related to create and train the image classification Tensorflow model based on MobileNet.
 - Codes related to crawl [Digi-Key], the world's largest seller of electronic components, to create the image datasets
 
-The model whihc is used for image classification is MobileNet version 2. The model has 154 layers, and in the begining, the model is not trained and only the last layer which is the classification layer is trained with 10 epochs. Then, for fine tuning the model, the last 54 layers of the model is also trained with another 10 epochs.
+The model which is used for image classification is MobileNet version 2. The model has 154 layers, and in the beginning, the model is not trained and only the last layer of the model among the classification layer are trained with 10 epochs. Then, for fine tuning the model, the last 54 layers of the model is also trained with another 10 epochs.
 ## Evaluation
 For evaluation, the dataset is divided into train set (70%) and validation set (30%). The following table is the results after training the model.
 | Metric |Train Set | Validation Set |
