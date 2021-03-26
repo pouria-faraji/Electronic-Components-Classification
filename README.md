@@ -3,7 +3,7 @@ This is a private repository for an Electronic Components Detector application.
 
 It's an Android applciation developed in Kotlin in collaboration with Tensroflow Lite. The application tries to detect electronic components in real-time. The 6 components are Capacitor, Diode, Resistor, Inductor, Transformer, and IC. The applciation also shows the confidence of the detection, in other words, the probability of the detected component.
 
-The main directory contains three parts. Android related codes, Python related codes, and the dataset.
+The main directory contains four parts. Android related codes, Python related codes, the dataset, and the generated APK file.
 
 # Android
 The Android is developed in Kotlin. For working with camera and analysing the camera frames in real-time, [CameraX] library is used, which is part of the [Jetpack] libraries. In order to use Tensorflow models in the Android environment, it has to be converted to Tensorflow Lite models, which have `.tflite` extensions.
