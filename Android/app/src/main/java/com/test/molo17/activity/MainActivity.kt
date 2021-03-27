@@ -7,6 +7,7 @@ import android.os.Bundle
 import android.os.Handler
 import android.os.Process
 import android.util.Log
+import android.view.WindowManager
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.camera.core.CameraSelector
@@ -53,6 +54,8 @@ class MainActivity : AppCompatActivity() {
         cameraExecutor = Executors.newSingleThreadExecutor()
 
         imageClassifier.initialize()
+
+        window.addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
     }
 
     private fun startCamera() {
@@ -176,6 +179,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     override fun onDestroy() {
+        window.clearFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON)
         Process.killProcess(Process.myPid())
         Log.e(TAG, "classifier close called")
         imageClassifier.close()
