@@ -1,5 +1,5 @@
-# Molo17
-This is a private repository for an Electronic Components Detector application.
+# Electronic Components Image Classifier
+This is a public repository for an Electronic Components Detector application.
 
 It's an Android application developed in Kotlin in collaboration with Tensroflow Lite. The application tries to detect electronic components in real-time. The 6 components are Capacitor, Diode, Resistor, Inductor, Transformer, and IC. The applciation also shows the confidence of the detection, in other words, the probability of the detected components.
 
