@@ -1,7 +1,6 @@
-# Electronic Components Image Classifier
-This is a public repository for an Electronic Components Detector application.
+# Electronic Components Detector: An Android Application for Real-time Detection using TensorFlow Lite
 
-It's an Android application developed in Kotlin in collaboration with Tensroflow Lite. The application tries to detect electronic components in real-time. The 6 components are Capacitor, Diode, Resistor, Inductor, Transformer, and IC. The applciation also shows the confidence of the detection, in other words, the probability of the detected components.
+The Electronic Components Detector is an Android application developed in Kotlin in collaboration with TensorFlow Lite. It utilizes real-time detection to identify six different electronic components, including Capacitor, Diode, Resistor, Inductor, Transformer, and IC. The application displays the confidence level of the detection, indicating the probability of the detected components. This project is stored as a public repository on GitHub, making it open to collaboration and contributions from interested developers. It is an excellent resource for those interested in machine learning and Android development and can be adapted for use in a variety of electronic-related fields.
 
 The main directory contains four parts. Android related codes, Python related codes, the dataset, and the generated APK file.
 
